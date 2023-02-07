@@ -1,0 +1,156 @@
+.head {
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red , green , yellow);
+    text-align: center;
+}
+
+.list {
+    background-color: skyblue;
+    border-color: red;
+    border-radius: 15px;
+    border-style:  solid;
+   margin-left: 20%;
+    width: 50%;
+    text-align: center;
+}
+
+.grid1 {
+    display: grid;
+    background-color: lightgreen;
+    border-color: red;
+    border-radius: 15px ;
+    border-style:  solid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    column-gap: 30px;
+    }
+
+.box1 {
+    background-color: skyblue;
+    border-color: red;
+    border-radius: 15px;
+    border-style:  solid;
+    width: 450px;
+    margin-top: 2px;
+}
+.box2 {
+    background-color: skyblue;
+    border-color: red;
+    border-radius: 15px;
+    border-style:  solid;
+    width: 450px;
+    margin-top: 2px;
+    grid-column-start: 2;
+    grid-column-end: auto;
+
+}
+
+.h2 {
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red , yellow , red);
+    text-align: center;
+}
+
+.grid2 {
+    display: grid;
+    background-image: radial-gradient(blue,blue,green);
+    border-color: green;
+    border-radius: 0px ;
+    border-style:  solid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+}
+.box3 {
+    background-color: yellow;
+    border-color: red;
+    border-radius: 15px;
+    border-style:  solid;
+    text-align: center;
+    column-gap: 10px;
+    width: 250px;
+    height: 100px;
+    margin-top: 50%;
+    margin-left: 5%;
+    color: red;
+    text-decoration: underline;
+    
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    border: 1px;
+    border-color: red;
+    border-style: solid;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.box4 {
+    color: white;
+    text-align: center;
+    background-color: red;
+     grid-column-start: 1; 
+    grid-column-end: 5; 
+    
+}
+.box5 {
+    color: white;
+    text-align: center;
+    background-color: green;
+    font-size: 20px;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+
+}
+.box6 {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    font-size: 20px;
+}
+.box7 {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    font-size: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+.box8 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    text-decoration: underline;
+
+    grid-column-start: 4;
+    grid-row: 2 / span 2;
+  
+}
+
+.box9 {
+    color: white;
+    text-align: center;
+    background-color: orange;
+    font-size: 20px;
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+
+}
+
+.box10 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 20px;
+    grid-column-start: 1; 
+    grid-column-end: 5; 
+
+}
+
